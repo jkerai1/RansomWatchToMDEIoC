@@ -5,6 +5,9 @@ Required Library for validating domains:
 ```
 pip install validators
 ```
+# Example Usage
+
+![image](https://github.com/jkerai1/RansomWatchToMDEIoC/assets/55988027/e1b568e6-add6-4ad8-a3bf-bb05f27af5d1)
 
 # See also MDE IOC/TABL Repos for 
 DNSTwist: https://github.com/jkerai1/DNSTwistToMDEIOC  
