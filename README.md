@@ -3,7 +3,7 @@ Parse Ransomwatch results in python and create MDE IOC lists as you search.
 
 https://ransomwatch.telemetry.ltd/    
 
-Required Library for validating domains:
+## Required Library for validating domains:  
 ```
 pip install validators
 pip install tldextract
