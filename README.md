@@ -11,7 +11,7 @@ pip install validators
 
 # See also MDE IOC/TABL Repos for 
 DNSTwist: https://github.com/jkerai1/DNSTwistToMDEIOC  
-JoeSandBox: https://github.com/jkerai1/JoeSandBoxToMDEBlockList 
+JoeSandBox: https://github.com/jkerai1/JoeSandBoxToMDEBlockList   
 TLD: https://github.com/jkerai1/TLD-TABL-Block  
 
 # Map
