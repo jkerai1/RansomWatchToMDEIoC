@@ -7,9 +7,10 @@ pip install validators
 ```
 
 # See also MDE IOC/TABL Repos for 
-https://github.com/jkerai1/DNSTwistToMDEIOC  
-https://github.com/jkerai1/TLD-TABL-Block  
-https://github.com/jkerai1/JoeSandBoxToMDEBlockList  
+DNSTwist: https://github.com/jkerai1/DNSTwistToMDEIOC  
+JoeSandBox: https://github.com/jkerai1/JoeSandBoxToMDEBlockList 
+TLD: https://github.com/jkerai1/TLD-TABL-Block  
+
 # Map
 ![image](https://github.com/jkerai1/RansomWatchToMDEIoC/assets/55988027/f31e288a-5bb4-437b-a8f0-a9a2729e5bbd)
 
