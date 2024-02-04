@@ -50,9 +50,10 @@ if os.path.exists(filename)== False:
 with open(filename, 'a',newline='') as file:
     writer = csv.writer(file)
     for i in posts: 
-        if i not in whitelist and i.find('.') and validators.domain(i.replace('http://','').replace('https://','')):
+        i = i.replace('http://','').replace('https://','')
+        if i not in whitelist and i.find('.') and validators.domain(i):
             try:
-                writer.writerow(["DomainName",i.replace('http://','').replace('https://',''),"","Block","","Ransomwatch " + searchterm,"\nTool written by jkerai1","","","","","FALSE"])#Create MDE BlockList
+                writer.writerow(["DomainName",i,"","Block","","Ransomwatch " + searchterm,"https://www.virustotal.com/gui/domain/"+i+"\nTool written by jkerai1","","","","","FALSE"])#Create MDE BlockList
             except: #fallback
                 print("   Error")    
     
