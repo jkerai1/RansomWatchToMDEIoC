@@ -9,6 +9,10 @@ pip install validators
 
 ![image](https://github.com/jkerai1/RansomWatchToMDEIoC/assets/55988027/e1b568e6-add6-4ad8-a3bf-bb05f27af5d1)
 
+# How to Bulk Import IOCs
+
+![image](https://github.com/jkerai1/RansomWatchToMDEIoC/assets/55988027/a90d7f32-0a9b-451f-953f-e9c6fac6b151)
+
 # See also MDE IOC/TABL Repos for 
 DNSTwist: https://github.com/jkerai1/DNSTwistToMDEIOC  
 JoeSandBox: https://github.com/jkerai1/JoeSandBoxToMDEBlockList   
