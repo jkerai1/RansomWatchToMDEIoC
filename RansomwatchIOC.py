@@ -3,6 +3,7 @@ import datetime
 import os
 import validators
 import csv
+import tldextract
 from pathlib import Path
 
 whitelist =["example.com"] #domains to exclude from blocking
@@ -51,6 +52,8 @@ with open(filename, 'a',newline='') as file:
     writer = csv.writer(file)
     for i in posts: 
         i = i.replace('http://','').replace('https://','')
+        i = tldextract.extract(i)
+        i = i.domain + "." + i.suffix #Block at highest level where possible
         if i not in whitelist and i.find('.') and validators.domain(i):
             try:
                 writer.writerow(["DomainName",i,"","Block","","Ransomwatch " + searchterm,"https://www.virustotal.com/gui/domain/"+i+"\nTool written by jkerai1","","","","","FALSE"])#Create MDE BlockList
