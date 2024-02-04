@@ -27,6 +27,7 @@ if userchoice == "pot":
     
 if userchoice == "group":
     url = url + "groups"
+    searchterm = "group search"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
@@ -51,7 +52,7 @@ with open(filename, 'a',newline='') as file:
     for i in posts: 
         if i not in whitelist and i.find('.') and validators.domain(i.replace('http://','').replace('https://','')):
             try:
-                writer.writerow(["DomainName",i.replace('http://','').replace('https://',''),"","Block","","Ransomwatch " ,"\nTool written by jkerai1","","","","","FALSE"])#Create MDE BlockList
+                writer.writerow(["DomainName",i.replace('http://','').replace('https://',''),"","Block","","Ransomwatch " + searchterm,"\nTool written by jkerai1","","","","","FALSE"])#Create MDE BlockList
             except: #fallback
                 print("   Error")    
     
