@@ -1,3 +1,7 @@
+[![GitHub stars](https://img.shields.io/github/stars/jkerai1/RansomWatchToMDEIoC?style=flat-square)](https://github.com/jkerai1/RansomWatchToMDEIoC/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/jkerai1/RansomWatchToMDEIoC?style=flat-square)](https://github.com/jkerai1/RansomWatchToMDEIoC/network)
+[![GitHub issues](https://img.shields.io/github/issues/jkerai1/RansomWatchToMDEIoC?style=flat-square)](https://github.com/jkerai1/RansomWatchToMDEIoC/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/jkerai1/RansomWatchToMDEIoC?style=flat-square)](https://github.com/jkerai1/RansomWatchToMDEIoC/pulls)
 # RansomWatchToMDEIoC
 Parse Ransomwatch results in python and create MDE IOC lists as you search. 
 
