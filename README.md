@@ -7,6 +7,8 @@ Parse Ransomwatch results in python and create MDE IOC lists as you search.
 
 https://ransomwatch.telemetry.ltd/    
 
+There is a limit of 500 IOCs per CSV in MDE, if you need to split out the IOCs, please see: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Scripts/MDE-IOC-Batch-Separator.py  
+
 ## Required Libraries for validating domains:  
 ```
 pip install validators
